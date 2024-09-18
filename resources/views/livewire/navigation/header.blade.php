@@ -1,5 +1,5 @@
 <header>
-    <nav class="bg-white border border-gray-300 px-4 lg:px-6 py-2.5 dark:bg-gray-800 dark:border-gray-800">
+    <nav class="bg-white border border-gray-300 px-4 lg:px-6 py-2.5 dark:bg-gray-900 dark:border-gray-900">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 
             <x-sheet>
@@ -82,7 +82,6 @@
 
             </div>
 
-
             <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li>
@@ -91,11 +90,8 @@
                     <li>
                         <x-link href="/components">Components</x-link>
                     </li>
-
-
                 </ul>
             </div>
-
 
         </div>
     </nav>
