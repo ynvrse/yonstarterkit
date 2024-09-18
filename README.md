@@ -2,6 +2,9 @@
 
 Proyek ini adalah starterkit Laravel yang menggunakan kombinasi teknologi modern untuk pengembangan web yang cepat dan efisien.
 
+![Screenshot](https://github.com/ynvrse/yonstarterkit/blob/main/Yonstarterkit.png?raw=true)
+
+
 ## Stack Teknologi
 
 -   **Laravel**: Framework PHP yang kuat dan ekspresif untuk pengembangan web.
