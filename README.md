@@ -1,8 +1,6 @@
-# Starterkit Laravel dengan Tailwind, Alpine.js, Livewire, dan Luvi UI
+# Starterkit Laravel dengan Tailwind, Alpine.js, Livewire, Laravel Folio, dan Luvi UI
 
 Proyek ini adalah starterkit Laravel yang menggunakan kombinasi teknologi modern untuk pengembangan web yang cepat dan efisien.
-
-![Stack Teknologi](https://via.placeholder.com/800x400.png?text=Laravel+Tailwind+Alpine.js+Livewire+Luvi+UI)
 
 ## Stack Teknologi
 
@@ -10,6 +8,7 @@ Proyek ini adalah starterkit Laravel yang menggunakan kombinasi teknologi modern
 -   **Tailwind CSS**: Framework CSS utility-first untuk desain yang cepat dan fleksibel.
 -   **Alpine.js**: Framework JavaScript ringan untuk menambahkan interaktivitas pada komponen.
 -   **Livewire**: Framework full-stack untuk Laravel yang membuat pembuatan antarmuka dinamis menjadi mudah.
+-   **Laravel Folio**: Sistem routing berbasis file untuk Laravel, mempermudah organisasi dan pengelolaan rute.
 -   **Luvi UI**: Kumpulan komponen UI yang dibangun dengan Tailwind CSS untuk mempercepat pengembangan.
 
 ## Instalasi
@@ -73,12 +72,30 @@ Sekarang Anda dapat mengakses aplikasi di `http://localhost:8000`.
 
 ## Penggunaan
 
-[Tambahkan instruksi penggunaan atau fitur utama proyek Anda di sini]
+### Membuat Halaman Baru
+
+Gunakan command artisan khusus untuk menghasilkan file blade dengan cepat:
+
+```
+    php artisan make:page {nama-file}
+```
+
+contoh :
+
+```
+    php artisan make:page about
+```
+
+Menghasilkan file di resources/views/pages/about.blade.php
+
+Untuk membuat halaman dalam subfolder:
+
+```
+    php artisan make:page admin/dashboard
+```
+
+Menghasilkan file di resources/views/pages/admin/dashboard.blade.php
 
 ## Kontribusi
 
 Kontribusi selalu diterima. Silakan buat pull request atau laporkan masalah jika Anda menemukan bug atau memiliki saran perbaikan.
-
-## Lisensi
-
-[Tambahkan informasi lisensi proyek Anda di sini]
